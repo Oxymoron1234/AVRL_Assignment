@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: #4472C4;
+}
+.content{
+    display: flex;
+}
+.side-bar{
+      height: 100vh;
+      width: 20%;
+      border-right: 4px solid black;
+}
+.side-bar .getWether{
+    margin-top:4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4472C4;
+    font-size: larger;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.side-bar .getWeat {
+      background-color: #4472C4;
+      margin: 1rem;
+      font-size: 2rem;
+}
+.side-bar .getWeat .city{
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: smaller;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.main .search{
+    /* background-color:rgb(207, 202, 202); */
+    width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    border: none;
+}
+.main .search button{
+    background-color: #4472C4;
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+.main .search input{
+    width: 20%;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.main .tableT{
+    height: 100%;
+}
+.main table th{
+    background-color: #4472C4;
+    color:#fff;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+}
+.main table{
+   
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+
+.noData{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   text-align: center;
+}
+.highlight {
+    background-color: yellow;
+  }
+
+
+.row{
+    text-align: center;
+}
+.row td{
+    border: 1px solid black;
+}
+.delBtn{
+    border: none;
+    color: blue !important;
+    background-color: white !important;
+    
+}
